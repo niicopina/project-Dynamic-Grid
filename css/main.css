@@ -26,23 +26,32 @@ body {
 .little-card {
     width: 12vmin;
     border-radius: 2vmin;
-    background-color: bisque;
+    
+    background-image: url(https://i.pinimg.com/236x/1a/59/15/1a5915c5bb4fff3dd6e97d4bff8d3008.jpg);
 }
 
+
+
 .big-card:nth-child(2) {
-    background-color: blue;
+    
     transform: translateX(-10%) rotate(-1deg);
+    background-image: url(https://i.pinimg.com/236x/86/b1/34/86b134db63da232f9ceeabd995f4d43b.jpg);
 }
 .big-card:nth-child(4) {
     background-color: rgb(63, 63, 194);
     transform: rotate(2deg);
+    background-image: url(https://i.pinimg.com/236x/3c/e5/9a/3ce59a91346e285d6e1aea932939fb6c.jpg);
+    
 }
 .big-card:nth-child(6) {
     transform: translateX(-6%) rotate(-3deg);
+    background-image: url(https://i.pinimg.com/236x/c4/a4/48/c4a448dbe89b2d73a5b497d4ee58d764.jpg);
 }
 .big-card:nth-child(8) {
     background-color: brown;
     transform: translate(10%, 3%) rotate(5deg);
+    background-image: url(https://i.pinimg.com/236x/cc/8b/63/cc8b63f1b45bbfe25639537379ef7d39.jpg);
+    
 }
 
 .little-card {
@@ -54,7 +63,7 @@ body {
 }
 
 .card-group:hover > .big-card:nth-child(2) {
-    transform: translate(-70%, 15%) rotate(24deg);
+    transform: translate(-100%, 18%) rotate(-24deg);
 }
 .card-group:hover > .big-card:nth-child(4) {
     transform: translate(-50%, 8%) rotate(-8deg);
@@ -66,7 +75,7 @@ body {
     transform: translate(75%, 16%) rotate(24deg);
 }
 .card-group:hover > .little-card:nth-child(1) {
-    transform: translate(200%, -160%) rotate(-15deg);
+    transform: translate(200%, -160%) rotate(17deg);
 }
 .card-group:hover > .little-card:nth-child(3) {
     transform: translate(160%, 170%) rotate(-15deg);
@@ -75,5 +84,5 @@ body {
     transform: translate(-200%, -170%) rotate(-15deg);
 }
 .card-group:hover > .little-card:nth-child(7) {
-    transform: translate(-280%, 140%) rotate(-15deg);
+    transform: translate(-280%, 140%) rotate(15deg);
 }
